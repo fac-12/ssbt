@@ -57,6 +57,17 @@ input::placeholder, textarea::placeholder {
   margin-bottom: 20px;
 }
 
+footer {
+  max-width: 100%;
+  height: 200px;
+  background-color: #93AF56;
+  background-size: cover;
+}
+
+
+
+/*MEDIA QUERIES*/
+
 @media screen and (max-width:1000px) {
   .bios > article {
     min-width: 35%;
