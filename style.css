@@ -11,15 +11,20 @@ nav li{
 
 
 }
+
 a{
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
+
 .nav-container{
   display: inline-flex;
   justify-content: flex-end;
   width:100%;
+
 }
+
 .teamname{
-  justify-content: flex-start;
+  float: left;
+
 }
