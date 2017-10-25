@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+bios {
+    display: flex;
+}
+
+bios > article {
+    flex: 1;
+}
