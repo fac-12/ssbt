@@ -10,6 +10,7 @@ nav li{
   padding-right: 3%;
 
 
+
 }
 
 a{
@@ -21,10 +22,13 @@ a{
   display: inline-flex;
   justify-content: flex-end;
   width:100%;
-
+  padding-right: 20px;
 }
 
 .teamname{
-  float: left;
+
+  position: absolute;
+  left: 20px;
+  top: 20px;
 
 }
