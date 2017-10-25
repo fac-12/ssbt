@@ -1,0 +1,25 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+nav li{
+  display:inline;
+  padding-left: : 3%;
+  padding-right: 3%;
+
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.nav-container{
+  display: inline-flex;
+  justify-content: flex-end;
+  width:100%;
+}
+.teamname{
+  justify-content: flex-start;
+}
