@@ -2,10 +2,28 @@
     box-sizing: border-box;
 }
 
-bios {
-    display: flex;
+.subsection {
+    text-align: center;
 }
 
-bios > article {
+.subsection > header {
+    display: inline-block;
+    padding: 10px 0 20px 0;
+}
+
+.bios {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+}
+
+.bios > article {
+    padding: 0 3%;
     flex: 1;
 }
+
+.bios > article > img {
+    width: 100%;
+    border: 2px solid black;
+}
+
