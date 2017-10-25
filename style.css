@@ -1,6 +1,5 @@
 body{
   font-family: 'Montserrat', sans-serif;
-
 }
 
 
@@ -10,9 +9,6 @@ nav li{
   padding-right: 3%;
 }
 
-nav {
-  font-size: 2rem;
-}
 
 a{
   color: #000000;
@@ -21,26 +17,47 @@ a{
 
 .nav-container{
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   justify-content: flex-end;
-
-
-
+  font-size: 2rem;
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-/*.teamname {
-  margin-right: auto;
-}*/
+
 
 .teamname{
   margin-right: auto;
 }
 
+.head {
+  height: 600px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 130px;
+  font-size: 2.5rem;
+  position: relative;
+}
 
-
-
-
-
+.headlinepara {
+  position: relative;
+  top: 40%;
+}
 
 h2 {
   display: inline-block;
+}
+
+#welcomepara {
+  padding-bottom: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: bold;
+  text-align: center;
 }
