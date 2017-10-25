@@ -20,15 +20,26 @@ a{
 
 .nav-container{
   display: inline-flex;
-  justify-content: flex-end;
-  width:100%;
-  padding-right: 20px;
+  justify-content: flex-start;
+  border: 1px solid red;
+  width: 100%;
+
 }
 
-.teamname{
+/*.teamname {
+  margin-right: auto;
+}*/
 
-  position: absolute;
-  left: 20px;
-  top: 20px;
+.contact{
+  margin-left: auto;
+}
 
+
+
+
+
+
+
+h2 {
+  display: inline-block;
 }
