@@ -20,7 +20,7 @@ a{
 
 .nav-container{
   display: inline-flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   border: 1px solid red;
   width: 100%;
 
@@ -30,8 +30,8 @@ a{
   margin-right: auto;
 }*/
 
-.contact{
-  margin-left: auto;
+.teamname{
+  margin-right: auto;
 }
 
 
