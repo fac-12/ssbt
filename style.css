@@ -8,9 +8,10 @@ nav li{
   display:inline;
   padding-left: : 3%;
   padding-right: 3%;
+}
 
-
-
+nav {
+  font-size: 2rem;
 }
 
 a{
@@ -19,10 +20,10 @@ a{
 }
 
 .nav-container{
-  display: inline-flex;
+  display: flex;
   justify-content: flex-end;
-  border: 1px solid red;
-  width: 100%;
+
+
 
 }
 
