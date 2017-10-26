@@ -95,8 +95,13 @@ h2 {
     border: 2px solid black;
 }
 
+form {
+  margin-top: 40px;
+}
+
 label, input {
   display: block;
+  margin: auto;
 }
 
 input::placeholder, textarea::placeholder {
@@ -106,11 +111,11 @@ input::placeholder, textarea::placeholder {
 .inputfield {
   width: 300px;
   height: 2rem;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem auto 1rem auto;
 }
 
 .submitbutton {
-  margin: 0;
+  margin: 5px auto 25px auto;
 }
 
 .messagebox {
@@ -120,13 +125,12 @@ input::placeholder, textarea::placeholder {
 }
 
 .contactform {
-  margin-bottom: 20px;
-  margin-left: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 .map {
-  height: 400px;
+  height: 570px;
+  min-width: 50%;
 }
 
 .contactbox {
@@ -138,7 +142,7 @@ input::placeholder, textarea::placeholder {
 
 .contactitem {
   flex: 1;
-  border: 1px dashed blue;
+  border: 0px dashed blue;
 }
 
 #welcomepara {
