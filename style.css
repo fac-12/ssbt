@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 .nav-container {
   display: flex;
   position: fixed;
