@@ -200,6 +200,11 @@ input::placeholder, textarea::placeholder {
 .map {
   height: 570px;
   min-width: 50%;
+  background-image: url("images/facmap.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+  border: 2px solid red;
 }
 
 .contactbox {
@@ -294,4 +299,8 @@ footer > h5 {
     top: -70px;
     left: 0;
     visibility: hidden;
+}
+
+.nodisplay{
+  display: none;
 }
