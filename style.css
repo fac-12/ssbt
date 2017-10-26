@@ -12,7 +12,7 @@
   font-size: 1.5rem;
   background-color:gray;
   margin: 0px;
-  padding: 30px 10px 10px 10px;
+  padding: 25px 10px 15px 10px;
   z-index: 100;
 }
 
@@ -62,7 +62,7 @@ h2 {
   display: inline-block;
 }
 
-h3 {
+header > h3 {
   font-size: 2rem;
 }
 
@@ -80,13 +80,9 @@ h3 {
 
 .article1{
   height:500px;
-
-
-border: 5px solid gray;
-    width:100%;
+  border: 5px solid gray;
+  width:100%;
 }
-
-
 
 .bios {
     display: flex;
