@@ -9,14 +9,10 @@
   top: 0;
   left: 0;
   right: 0;
-  justify-content: flex-end;
   font-size: 1.5rem;
-  background-color: #FFFFFF;
-
-  margin:0px;
-
-  padding-top: 30px;
-  padding-bottom: 10px;
+  background-color: gray;
+  margin: 0px;
+  padding: 30px 10px 10px 10px;
   z-index: 100;
 
 }
@@ -27,6 +23,7 @@
 
 nav li {
   display: inline-block;
+  margin: 0;
   padding-left: 3%;
   padding-right: 3%;
 }
