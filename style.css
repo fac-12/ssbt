@@ -94,9 +94,9 @@ footer > a {
   color: white;
   border: 1px solid #254557;
 }
-.subsection1 > header {
+.subsection1 > header > h3 {
     display: inline-block;
-    padding: 25px 0 0px 0;
+    padding: 40px 0 15px 0;
     margin: 0;
 }
 .subsection {
@@ -138,7 +138,7 @@ footer > a {
 
 .bios > article > img {
     width: 100%;
-    border: 2px solid black;
+    border: 0px solid white;
 }
 
 form {
