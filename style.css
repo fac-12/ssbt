@@ -91,6 +91,24 @@ footer > a {
   line-height: 1rem;
 }
 
+.sectionabout {
+  display: flex;
+  border: 0px solid blue;
+  margin: 40px 0 35px 0;
+}
+.sectionabout img {
+  width: 200px;
+  height: 200px;
+}
+.aboutheader {
+  margin: 20px 0 5px 0;
+}
+
+.articlea {
+  flex: 1;
+  border: 0px solid red;
+}
+
 .subsection1 {
   text-align: center;
   target: padding-top: 100px;
@@ -100,7 +118,7 @@ footer > a {
 }
 .subsection1 > header > h3 {
     display: inline-block;
-    padding: 40px 0 15px 0;
+    padding: 40px 0 30px 0;
     margin: 0;
 }
 .subsection {
@@ -114,7 +132,8 @@ footer > a {
 }
 
 .article1 {
-  padding: 30px 50px;
+  padding: 0px 0px 10px 0px;
+  margin: 0 10%;
 }
 
 .article1 > h2 {
@@ -199,12 +218,12 @@ input::placeholder, textarea::placeholder {
 footer {
   max-width: 100%;
   height: 150px;
-  background-color: #393E46;
+  background-color: #254557;
   background-size: cover;
 
 }
 
-footer > h5 {
+footer > p {
   color: white;
   font-size: 16px;
   margin: 0;
@@ -212,7 +231,7 @@ footer > h5 {
   text-align: right;
 }
 
-footer > h6 {
+footer > h5 {
   color: white;
   padding: 3px 20px;
   margin: 0;
@@ -239,6 +258,9 @@ footer > h6 {
   }
   .contactform {
     min-width: 350px;
+  }
+  .sectionabout {
+    display:none;
   }
 }
 
