@@ -63,15 +63,15 @@ h2 {
 }
 
 .article1{
-  height:600px;
-  float:left;
+  height:100px;
+  
   border:1px solid red;
     width:48%;
 }
 
 .article2 {
-  height:600px;
-  float:right;
+  height:100px;
+  
     border:1px solid red;
     width:48%;
 }
