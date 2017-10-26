@@ -42,7 +42,7 @@ a {
   height: 350px;
   font-weight: bold;
   text-align: center;
-  margin-top: 130px;
+  margin-top: 70px;
   font-size: 2.5rem;
   position: relative;
   padding-bottom: 10%;
@@ -179,7 +179,7 @@ footer {
   height: 150px;
   background-color: #393E46;
   background-size: cover;
-  
+
 }
 
 
@@ -216,7 +216,7 @@ footer {
     width: 0;
     height: 0;
     z-index: -1;
-    top: -100px;
+    top: -70px;
     left: 0;
     visibility: hidden;
 }
