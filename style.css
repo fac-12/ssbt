@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   font-size: 1.5rem;
-  background-color:gray;
+  background-color:#254557;
   margin: 0px;
   padding: 25px 10px 15px 10px;
   z-index: 100;
@@ -34,7 +34,7 @@ nav li {
 }
 
 a {
-  color: #000000;
+  color: white;
   text-decoration: none;
 }
 
@@ -67,6 +67,10 @@ header > h3 {
   font-size: 2rem;
 }
 
+#aboutsection {
+  background-color: white;
+}
+
 footer > h3, h5 {
   color: white;
   font-size: 16px;
@@ -85,19 +89,18 @@ footer > a {
 
 .subsection1 {
   text-align: center;
-  border: 5px solid gray;
-  /*padding-top: 99px;*/
   target: padding-top: 100px;
-  background-color: #155263;
+  background-color:#254557;
+  color: white;
+  border: 1px solid #254557;
 }
-.subsection1 > header {
+.subsection1 > header > h3 {
     display: inline-block;
-    padding: 10px 0 20px 0;
+    padding: 40px 0 15px 0;
+    margin: 0;
 }
 .subsection {
     text-align: center;
-    border: 5px solid gray;
-    /*padding-top: 99px;*/
     target: padding-top: 100px;
 }
 
@@ -123,7 +126,7 @@ footer > a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 3%;
+    margin: 5px 3% 50px 3%;
     justify-content: center;
 }
 
@@ -135,7 +138,7 @@ footer > a {
 
 .bios > article > img {
     width: 100%;
-    border: 2px solid black;
+    border: 0px solid white;
 }
 
 form {
