@@ -9,6 +9,7 @@
   <title>Portfolio</title>
   <link href="style.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -76,29 +77,38 @@
       </article>
     </div>
   </section>
+
   <a id="contact" class="anchor"></a>
   <section class="subsection" id="contactsection">
-    <header>
-      <h3>Contact Us</h3>
-    </header>
-    <div class="contactform">
-      <form action="/action_page.php">
+    <div class="contactbox">
+      <div class="map contactitem" id="map">
+      </div>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM7lY0M-ypmiAUrM9cPa9IM_C4CcIBPd0&callback=initMap">
+      </script>
+      <div class="contactform contactitem">
+        <header>
+            <h3>Contact Us</h3>
+        </header>
+        <form action="/action_page.php">
+   
 
-        <label for="fname">First Name</label>
-        <input class="inputfield" type="text" id="fname" name="firstname" placeholder="  Your name..">
 
-        <label for="lname">Last Name</label>
-        <input class="inputfield" type="text" id="lname" name="lastname" placeholder="  Your last name..">
+          <label for="fname">First Name</label>
+          <input class="inputfield" type="text" id="fname" name="firstname" placeholder="  Your name..">
 
-        <label for="email">Your Email</label>
-        <input class="inputfield" type="email" id="email" name="email" placeholder="  Your email..">
+          <label for="lname">Last Name</label>
+          <input class="inputfield" type="text" id="lname" name="lastname" placeholder="  Your last name..">
 
-        <label for="message">Message</label>
-        <textarea class="messagebox" id="message" name="message" placeholder="  Write something.."></textarea>
+          <label for="email">Your Email</label>
+          <input class="inputfield" type="email" id="email" name="email" placeholder="  Your email..">
 
-        <input class="submitbutton" type="submit" value="Submit">
+          <label for="message">Message</label>
+          <textarea class="messagebox" id="message" name="message" placeholder="  Write something.."></textarea>
 
-      </form>
+          <input class="submitbutton" type="submit" value="Submit">
+
+        </form>
+      </div>
     </div>
   </section>
   <footer>

@@ -98,6 +98,10 @@ h2 {
     border: 2px solid black;
 }
 
+form {
+  margin-top: 40px;
+}
+
 label, input {
   display: block;
   margin: auto;
@@ -113,14 +117,35 @@ input::placeholder, textarea::placeholder {
   margin: 0.5rem auto 1rem auto;
 }
 
+.submitbutton {
+  margin: 5px auto 25px auto;
+}
+
 .messagebox {
   width: 300px;
   height: 10rem;
-  margin: 0.5rem auto 1rem auto;
+  margin: 0.5rem 0 1rem 0;
 }
 
 .contactform {
-  margin-bottom: 20px;
+  text-align: center;
+}
+
+.map {
+  height: 570px;
+  min-width: 50%;
+}
+
+.contactbox {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  margin: auto;
+}
+
+.contactitem {
+  flex: 1;
+  border: 0px dashed blue;
 }
 
 
