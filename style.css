@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
 .nav-container {
   display: flex;
   position: fixed;
@@ -89,18 +93,18 @@ footer > a {
 
 .subsection1 {
   text-align: center;
-  /*padding-top: 99px;*/
   target: padding-top: 100px;
-  background-color: #155263;
+  background-color:#254557;
+  color: white;
+  border: 1px solid #254557;
 }
-.subsection1 > header {
+.subsection1 > header > h3 {
     display: inline-block;
-    padding: 10px 0 20px 0;
+    padding: 40px 0 15px 0;
+    margin: 0;
 }
 .subsection {
     text-align: center;
-    
-    /*padding-top: 99px;*/
     target: padding-top: 100px;
 }
 
@@ -126,7 +130,7 @@ footer > a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin: 3%;
+    margin: 5px 3% 50px 3%;
     justify-content: center;
 }
 
@@ -138,7 +142,7 @@ footer > a {
 
 .bios > article > img {
     width: 100%;
-    border: 2px solid black;
+    border: 0px solid white;
 }
 
 form {
