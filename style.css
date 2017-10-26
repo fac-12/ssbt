@@ -66,22 +66,6 @@ h3 {
   font-size: 2rem;
 }
 
-footer > h5 {
-  color: white;
-  font-size: 16px;
-  margin: 0;
-  padding: 20px;
-  text-align: right;
-}
-
-footer > h6 {
-  color: white;
-  padding: 3px 20px;
-  margin: 0;
-  text-align: right;
-  line-height: 1rem;
-}
-
 .subsection {
     text-align: center;
     border: 5px solid gray;
@@ -182,10 +166,21 @@ footer {
   
 }
 
+footer > h5 {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 20px;
+  text-align: right;
+}
 
-
-
-
+footer > h6 {
+  color: white;
+  padding: 3px 20px;
+  margin: 0;
+  text-align: right;
+  line-height: 1rem;
+}
 
 @media screen and (max-width:1000px) {
   .bios > article {
@@ -194,6 +189,18 @@ footer {
   }
   .bios {
     margin: 10px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .map {
+    height: 250px;
+  }
+  .contactbox {
+    flex-wrap: wrap-reverse;
+  }
+  .contactform {
+    min-width: 350px;
   }
 }
 
