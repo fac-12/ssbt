@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   font-size: 1.5rem;
-  background-color:gray;
+  background-color: gray;
   margin: 0px;
   padding: 30px 10px 10px 10px;
   z-index: 100;
@@ -19,6 +19,7 @@
 .teamname {
   margin-right: auto;
 }
+
 .teamname > h3 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -56,32 +57,14 @@ h2 {
   display: inline-block;
 }
 
-footer > h5 {
-  color: white;
-  font-size: 16px;
-  margin: 0;
-  padding: 20px;
-  text-align: right;
-}
-
-footer > h6 {
-  color: white;
-  padding: 3px 20px;
-  margin: 0;
-  text-align: right;
-  line-height: 1rem;
-}
-
 .subsection {
     text-align: center;
     border: 5px solid gray;
-    /*padding-top: 99px;*/
-    target: padding-top: 100px;
 }
 
 .subsection > header {
     display: inline-block;
-    padding: 10px 0 20px 0;
+    /*padding: 10px 0 20px 0;*/
 }
 
 .article1{
@@ -117,10 +100,6 @@ footer > h6 {
     border: 2px solid black;
 }
 
-form {
-  margin-top: 40px;
-}
-
 label, input {
   display: block;
   margin: auto;
@@ -136,23 +115,14 @@ input::placeholder, textarea::placeholder {
   margin: 0.5rem auto 1rem auto;
 }
 
-.submitbutton {
-  margin: 5px auto 25px auto;
-}
-
 .messagebox {
   width: 300px;
   height: 10rem;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem auto 1rem auto;
 }
 
 .contactform {
-  text-align: center;
-}
-
-.map {
-  height: 570px;
-  min-width: 50%;
+  margin-bottom: 20px;
 }
 
 .contactbox {
@@ -167,19 +137,12 @@ input::placeholder, textarea::placeholder {
   border: 0px dashed blue;
 }
 
-
 footer {
   max-width: 100%;
   height: 150px;
   background-color: #393E46;
   background-size: cover;
-  
 }
-
-
-
-
-
 
 @media screen and (max-width:1000px) {
   .bios > article {
