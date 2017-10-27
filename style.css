@@ -278,8 +278,9 @@ footer > h5 {
   .bios-flex-container {
     margin: 10px;
   }
-  .nav-container {
-    font-size: 0.8rem;
+  .nav-flex-container {
+    font-size: 1rem;
+    height: 70px;
   }
 }
 
