@@ -129,9 +129,7 @@ header > h3 {
 
 .bios-flex-container {
   display: flex;
-  display: -webkit-flex;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
   flex-direction: row;
   margin: 5px 3% 50px 3%;
   justify-content: center;
@@ -144,7 +142,6 @@ header > h3 {
 .bios-flex-container > article {
   padding: 0 3%;
   flex: 1;
-  -webkit-flex: 1;
   min-width: 200px;
 }
 
@@ -266,6 +263,7 @@ footer > h5 {
     height: 250px;
   }
   .contact-flex-container {
+    flex-direction: column;
     flex-wrap: wrap-reverse;
   }
   .contact-form {
