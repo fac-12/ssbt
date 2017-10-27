@@ -131,6 +131,10 @@ header > h3 {
     justify-content: center;
 }
 
+.bios-flex-container p{
+    line-height: 1.8rem;
+}
+
 .bios-flex-container > article {
     padding: 0 3%;
     flex: 1;
@@ -247,6 +251,11 @@ footer > h5 {
 }
 
 @media screen and (max-width:700px) {
+
+  h1 {
+    font-size: 2rem;
+
+  }
   .map {
     height: 250px;
   }
@@ -270,7 +279,7 @@ footer > h5 {
     margin: 10px;
   }
   .nav-container {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
