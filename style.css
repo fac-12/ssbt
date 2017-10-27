@@ -198,7 +198,7 @@ input::placeholder, textarea::placeholder {
     box-sizing: border-box;
     font-size: 1em;
     margin: 5px auto 25px auto;
-    padding: 2px;
+    padding: 10px 20px 10px 10px;
     border: none;
   }
 
