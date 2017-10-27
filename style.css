@@ -177,9 +177,18 @@ input::placeholder, textarea::placeholder {
   margin: 0.5rem auto 1rem auto;
 }
 
-.submit-button {
-  margin: 5px auto 25px auto;
-}
+.submitbutton {
+    background-color: #254557;
+    display: block;
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin: 5px auto 25px auto;
+    padding: 2px;
+    border: none;
+  }
 
 .messagebox {
   width: 300px;
