@@ -78,6 +78,7 @@ header > h3 {
 .about-flex-container {
   display: flex;
   margin: 40px 0 35px 0;
+  flex-direction: row;
 }
 
 .about-flex-container img {
