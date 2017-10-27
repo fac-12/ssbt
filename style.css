@@ -185,7 +185,7 @@ input::placeholder, textarea::placeholder {
   margin: 0.5rem auto 1rem auto;
 }
 
-.submitbutton {
+.submit-button {
     background-color: #254557;
     display: block;
     color: white;
