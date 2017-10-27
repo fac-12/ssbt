@@ -151,7 +151,7 @@ header > h3 {
 }
 
 .contact-flex-container {
-  display: flex;
+  display: none;
   border: 1px solid black;
   align-items: center;
   margin: auto;
