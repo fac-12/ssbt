@@ -31,7 +31,7 @@ nav li {
   margin-right: auto;
 }
 .nav-home-btn > h3 {
-  margin-top: 0px;
+  margin-top: -2px;
   margin-bottom: 0px;
 }
 
@@ -49,7 +49,6 @@ a:hover {
   font-weight: bold;
   text-align: center;
   margin-top: 70px;
-  font-size: 2.5rem;
   position: relative;
   padding-bottom: 10%;
   background-image: url("images/mountains.jpg");
@@ -60,8 +59,12 @@ a:hover {
 
 .headline-section header {
   position: relative;
-  font-size: 1.8rem;
-  top: 35%;
+  top: 20%;
+}
+
+.headline-section header h1 {
+  font-size: 2.5rem;
+  padding: 10px;
 }
 
 .about-section {
@@ -194,11 +197,10 @@ input::placeholder, textarea::placeholder {
     display: block;
     color: white;
     cursor: pointer;
-    width: 20%;
     box-sizing: border-box;
     font-size: 1em;
     margin: 5px auto 25px auto;
-    padding: 2px;
+    padding: 15px 20px 15px 20px;
     border: none;
   }
 
@@ -252,9 +254,9 @@ footer > h5 {
 
 @media screen and (max-width:700px) {
 
-  h1 {
-    font-size: 2rem;
-
+  .headline-section header h1 {
+    font-size: 1.8rem;
+    padding: 10px;
   }
   .map {
     height: 250px;
