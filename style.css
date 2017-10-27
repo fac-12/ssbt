@@ -128,21 +128,24 @@ header > h3 {
 }
 
 .bios-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 5px 3% 50px 3%;
-    justify-content: center;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-direction: row;
+  margin: 5px 3% 50px 3%;
+  justify-content: center;
 }
 
 .bios-flex-container p{
-    line-height: 1.8rem;
+  line-height: 1.8rem;
 }
 
 .bios-flex-container > article {
-    padding: 0 3%;
-    flex: 1;
-    min-width: 200px;
+  padding: 0 3%;
+  flex: 1;
+  -webkit-flex: 1;
+  min-width: 200px;
 }
 
 .bios-flex-container > article > img {
@@ -151,7 +154,7 @@ header > h3 {
 }
 
 .contact-flex-container {
-  display: none;
+  display: flex;
   border: 1px solid black;
   align-items: center;
   margin: auto;
@@ -277,9 +280,11 @@ footer > h5 {
   .bios-flex-container > article {
     min-width: 51%;
     max-width: 85%;
+    margin: 5px auto 5px auto;
   }
   .bios-flex-container {
     margin: 10px;
+    flex-direction: column;
   }
   .nav-flex-container {
     font-size: 1rem;
